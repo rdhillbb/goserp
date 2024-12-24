@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+    <utilmessages>
+        <query_rewrite>
+		You are tasked with enhancing a user's query by creating multiple rewrites. This process aims to generate 15 more comprehensive and effective search queries while maintaining the original intent of the user's question or request. You are only to provide the results. No additional informaiton is to be added.
+Here is the user's original query:
+<user_query>
+%s
+</user_query>
+Place the results in a json string in the tag <results></results>
+        </query_rewrite>
+    </utilmessages>
+
+    <supportmessages>
+        <help>
+            Please provide assistance for the following request:
+            <request>
+            %s
+            </request>
+            Format your response with priority and action items.
+        </help>
+    </supportmessages>
+</messages>

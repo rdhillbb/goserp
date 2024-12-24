@@ -1,0 +1,19 @@
+package main
+import "serp/goserp"
+import "fmt"
+
+func main(){
+     results,err := goserp.SerpSearch("Garlic")
+     if err!= nil{
+	     return
+     }
+     fmt.Println(results)
+     results,err = goserp.SerpExtensiveSearch("Garlic")
+     if err!= nil{
+	     fmt.Println("ERROR")
+             return
+     }
+
+     fmt.Println("-------------------------------")
+     fmt.Println("\n\n\n\n",results)
+}
