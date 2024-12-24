@@ -1,0 +1,15 @@
+{
+  "description": "SerpExtensiveSearch should be called for deep extensive search is requested",
+  "name": "SerpExtensiveSearch",
+  "parameters": {
+    "properties": {
+      "query": {
+        "title": "Query",
+        "type": "string"
+      }
+    },
+    "required": ["query"],
+    "title": "SerpExtensiveSearchInput",
+    "type": "object"
+  }
+}

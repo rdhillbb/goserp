@@ -1,0 +1,15 @@
+{
+  "description": "SerpSearch should be called for basic Internet search",
+  "name": "SerpSearch",
+  "parameters": {
+    "properties": {
+      "query": {
+        "title": "Query",
+        "type": "string"
+      }
+    },
+    "required": ["query"],
+    "title": "SerpSearchInput",
+    "type": "object"
+  }
+}
